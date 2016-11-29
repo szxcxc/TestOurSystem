@@ -1,0 +1,2 @@
+"Server=MYSQL5014.SmarterASP.NET;Database=db_a140ac_moh3010;Uid=a140ac_moh3010;Pwd=123456moh" 
+**

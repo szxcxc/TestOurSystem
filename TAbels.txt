@@ -1,0 +1,49 @@
+create table advertiser (
+ID_A INT,
+Name_A VARCHAR(50),
+Password_A VARCHAR(30),
+Aboutus_A VARCHAR(200),
+Number_A VARCHAR(20),
+Email_A VARCHAR(30),
+Address_A VARCHAR(200)
+
+)
+**************
+create table posts(
+ID_A INT,
+ID_P INT,
+Number_P VARCHAR(20),
+Details_P VARCHAR(200),
+Email_P VARCHAR(30),
+Title_P VARCHAR(50),
+Price_P FLOAT(8,4),
+Area_P FLOAT(5,5),
+Type_P VARCHAR(20),
+Image1_P BLOB,
+Image2_P BLOB,
+Image3_P BLOB,
+Image4_P BLOB,
+Image5_P BLOB,
+Image6_P BLOB,
+Image7_P BLOB,
+Image8_P BLOB,
+Image9_P BLOB,
+Image10_P BLOB
+)
+********************************
+create table Types(
+ID_A INT,
+ID_P INT,
+Bedroom_T INT,
+Bathroom_T INT,
+Floor_T INT,
+Salon_T INT,
+Balcony_T INT,
+Swimmingpool_T INT,
+
+)
+**************
+create table Virfied(
+ID_A INT
+)
+
